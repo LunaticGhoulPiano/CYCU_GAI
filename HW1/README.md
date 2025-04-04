@@ -1,5 +1,5 @@
 # Description
-![image](https://github.com/LunaticGhoulPiano/CYCU_GAI/HW1/blob/master/Description_PPT.jpg)
+![image](https://github.com/LunaticGhoulPiano/CYCU_GAI/HW1/Description_PPT.jpg)
 
 # Preprations
 - Apply a Groq api key
@@ -54,5 +54,5 @@ python main.py
         Access to model meta-llama/Meta-Llama-3-8B is restricted and you are not in the authorized list. Visit https://huggingface.co/meta-llama/Meta-Llama-3-8B to ask for access.
         ```
     - And after searching, I found [Llama 3 Tokenizer from Lunary AI](https://lunary.ai/llama3-tokenizer):
-    ![image](https://github.com/LunaticGhoulPiano/CYCU_GAI/HW1/blob/master/Lunary_Llama3_Tokenizer.jpg)
+    ![image](https://github.com/LunaticGhoulPiano/CYCU_GAI/HW1/Lunary_Llama3_Tokenizer.jpg)
     - So I use post request to send and get the result that this webpage displaied. According to this webpage, it support ```Llama 3.1 70B```, ```Llama 3 70B```, and ```Llama 3.1 8B```, so I choose the coressponding model ```llama-3.1-8b-instant``` which Groq supports.

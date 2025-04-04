@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# 11020107 電資四 蘇伯勳
 import os
 from dotenv import load_dotenv
 from groq import Groq

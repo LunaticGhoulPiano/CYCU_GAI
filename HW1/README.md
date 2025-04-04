@@ -20,6 +20,7 @@ python main.py
 
 # About tokenizer
 - Lunary AI
+    - [Github page](https://github.com/lunary-ai/lunary)
     - Originally this homework should use OpenAI's api, but I don't want to pay any money. Hence I use the free api **Groq**, and this cause another problem: I can't use the simply-install-and-use tokenizer ```tiktoken```, which is for OpenAI's model only.
     - I have tried using the corresponding tokenizer, but I don't know how to deal with those problems, for example:
         - Groq provide ```llama-3.3-70b-versatile``` -> ```meta-llama/Meta-Llama-3-8B``` on [huggingface](https://huggingface.co/docs/transformers/model_doc/llama3)

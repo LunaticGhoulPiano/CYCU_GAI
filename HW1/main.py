@@ -52,6 +52,7 @@ class CLI_ChatBot:
             except ValueError:
                 print("錯誤：請輸入有效數字: ", end = "")
         print(f"你選擇了{self.roles_with_index_chinese[role_index]}！")
+        print("若想轉換角色，請輸入\"CC\"或\"cc\"。")
         print("-----------------------------------------------------")
         return role_index
     
@@ -98,7 +99,7 @@ class CLI_ChatBot:
 
             # tokenize user input and check token count
             cur_token_usage, user_input = self.judge_token_counts(user_input)
-            print("\t目前使用的token數量為: ", cur_token_usage)
+            print(f"<此次輸入的的token數量為: {cur_token_usage}>")
 
             # record user input
             self.conversation_history.append({"role": "user", "content": user_input})

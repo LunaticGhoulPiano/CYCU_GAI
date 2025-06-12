@@ -1,1 +1,6 @@
 *.env
+HW3/llama3-demo
+HW3/python-test
+*.pdf
+*.faiss
+*.pkl

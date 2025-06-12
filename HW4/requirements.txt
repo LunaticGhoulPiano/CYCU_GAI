@@ -1,0 +1,12 @@
+transformers
+datasets
+sentence-transformers
+faiss-cpu
+pymupdf
+langchain
+langchain-community
+langchain-core
+langchain-ollama
+rank_bm25
+jieba
+streamlit
